@@ -14,6 +14,7 @@
 		0DD18876271DE327005F4AA6 /* Contacts7.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 0DD18874271DE327005F4AA6 /* Contacts7.xcdatamodeld */; };
 		0DD18878271DE329005F4AA6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0DD18877271DE329005F4AA6 /* Assets.xcassets */; };
 		0DD1887B271DE329005F4AA6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0DD18879271DE329005F4AA6 /* LaunchScreen.storyboard */; };
+		0DD18883271DE584005F4AA6 /* ContactTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DD18882271DE584005F4AA6 /* ContactTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		0DD18877271DE329005F4AA6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0DD1887A271DE329005F4AA6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0DD1887C271DE329005F4AA6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0DD18882271DE584005F4AA6 /* ContactTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +68,7 @@
 				0DD18879271DE329005F4AA6 /* LaunchScreen.storyboard */,
 				0DD1887C271DE329005F4AA6 /* Info.plist */,
 				0DD18874271DE327005F4AA6 /* Contacts7.xcdatamodeld */,
+				0DD18882271DE584005F4AA6 /* ContactTableViewController.swift */,
 			);
 			path = Contacts7;
 			sourceTree = "<group>";
@@ -143,6 +146,7 @@
 			files = (
 				0DD18876271DE327005F4AA6 /* Contacts7.xcdatamodeld in Sources */,
 				0DD18870271DE327005F4AA6 /* ViewController.swift in Sources */,
+				0DD18883271DE584005F4AA6 /* ContactTableViewController.swift in Sources */,
 				0DD1886C271DE327005F4AA6 /* AppDelegate.swift in Sources */,
 				0DD1886E271DE327005F4AA6 /* SceneDelegate.swift in Sources */,
 			);
@@ -299,6 +303,7 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -327,6 +332,7 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
